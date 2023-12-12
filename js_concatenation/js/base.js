@@ -1,0 +1,10 @@
+var var1 = 2023;
+var var2 = 202.3;
+var result = var1 * var2;
+var myText = "Le résultat est ";
+console.log(myText + result);
+var debutPhrase = "Aujourd'hui";
+var nbStagiaires = 12;
+var suitePhrase = "stagiaires";
+var finPhrase = "sont présents.";
+console.log(debutPhrase, nbStagiaires, suitePhrase, finPhrase);
