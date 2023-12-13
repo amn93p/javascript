@@ -1,0 +1,17 @@
+var a = 2;
+a = a - 1;
+a++;
+var b = 8;
+b += 2;
+var c = a + b * b;
+var d = a * b + b;
+var e = a * (b + b);
+var f = (a * b) / a;
+var g = (b / a) * a;
+console.log("la variable 'a' doit être à " + a);
+console.log("la variable 'b' doit être à " + b);
+console.log("la variable 'c' doit être à " + c);
+console.log("la variable 'd' doit être à " + d);
+console.log("la variable 'e' doit être à " + e);
+console.log("la variable 'f' doit être à " + f);
+console.log("la variable 'g' doit être à " + g);
