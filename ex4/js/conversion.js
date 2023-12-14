@@ -1,6 +1,8 @@
 var celsius = prompt("Entrez la température en celsius :", "0");
-const fah = 0.2;
-celsius = +celsius;
-var fahrenheit = celsius * (1 + fah);
-window.alert("La température en fahrenheit est : " + fahrenheit);
-// pas finit :p
+var fahrenheit = celsius * (9 / 5) + 32;
+window.alert(
+	"La température fahrenheit de " + celsius + "°C " + "est " + fahrenheit + "°F"
+);
+document.write(
+	"La température fahrenheit de " + celsius + "°C " + "est " + fahrenheit + "°F"
+);
