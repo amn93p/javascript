@@ -12,7 +12,7 @@ $(document).ready(function () {
 
 	$("input").on("input", function () {
 		let length = $(this).val().length;
-		if (length > 8) {
+		if (length >= 8) {
 			$("#img").hide();
 		} else {
 			$("#img").show();

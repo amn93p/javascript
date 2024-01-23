@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta charset="UTF-8" />
+		<title>Date de Naissance</title>
+		<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+	</head>
+	<body
+		style="
+			background-image: url(/img/Sprinkle.svg);
+			background-size: cover;
+			user-select: none;
+		"
+	>
+		<h2
+			style="
+				color: white;
+				text-shadow: 1px 1px 2px rgb(36, 35, 35);
+				align-items: center;
+				text-align: center;
+			"
+		>
+			Date de Naissance
+		</h2>
+		<form style="display: flex; justify-content: center; gap: 5px">
+			<label
+				style="color: white; text-shadow: 1px 1px 2px rgb(31, 30, 30)"
+				for="jour"
+				>Jour:</label
+			>
+			<select style="border-radius: 20px" id="jour"></select>
+
+			<label
+				style="color: white; text-shadow: 1px 1px 2px rgb(31, 30, 30)"
+				for="mois"
+				>Mois:</label
+			>
+			<select style="border-radius: 20px" id="mois"></select>
+
+			<label
+				style="color: white; text-shadow: 1px 1px 2px rgb(31, 30, 30)"
+				for="annee"
+				>Année:</label
+			>
+			<select style="border-radius: 20px" id="annee"></select>
+		</form>
+
+		<script src="js/scriptDate.js"></script>
+	</body>
+</html>

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta charset="UTF-8" />
+		<title>Prénoms Populaires en France</title>
+		<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+		<style>
+			.hvr-grow-shadow {
+				display: inline-block;
+				vertical-align: middle;
+				-webkit-transform: perspective(1px) translateZ(0);
+				transform: perspective(1px) translateZ(0);
+				box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+				-webkit-transition-duration: 0.3s;
+				transition-duration: 0.3s;
+				-webkit-transition-property: box-shadow, transform;
+				transition-property: box-shadow, transform;
+			}
+			.hvr-grow-shadow:hover,
+			.hvr-grow-shadow:focus,
+			.hvr-grow-shadow:active {
+				box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.5);
+				-webkit-transform: scale(1.1);
+				transform: scale(1.1);
+			}
+
+			/* Box Shadow Outset */
+			.hvr-box-shadow-outset {
+				display: inline-block;
+				vertical-align: middle;
+				-webkit-transform: perspective(1px) translateZ(0);
+				transform: perspective(1px) translateZ(0);
+				box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+				-webkit-transition-duration: 0.3s;
+				transition-duration: 0.3s;
+				-webkit-transition-property: box-shadow;
+				transition-property: box-shadow;
+			}
+			.hvr-box-shadow-outset:hover,
+			.hvr-box-shadow-outset:focus,
+			.hvr-box-shadow-outset:active {
+				box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.6);
+			}
+			select {
+				border-radius: 40px;
+				-webkit-appearance: none;
+				-moz-appearance: none;
+				text-indent: 1px;
+				width: 100px;
+				text-align: center;
+			}
+		</style>
+	</head>
+	<body
+		style="
+			justify-content: center;
+			align-items: center;
+			text-align: center;
+			background-image: url(/img/Animated\ Shape.svg);
+			background-size: cover;
+			background-size: 150%;
+			background-repeat: no-repeat;
+			user-select: none;
+		"
+	>
+		<h1 style="color: white; text-shadow: 1px 1px 2px rgb(20, 20, 20)">
+			Ajax: Les Prénoms
+		</h1>
+		<input
+			class="hvr-grow-shadow"
+			style="border-radius: 25px; text-align: center"
+			type="text"
+			id="prenomInput"
+			placeholder="Saisissez un prénom"
+		/>
+		<select
+			style="
+				border-radius: 25px;
+				margin-left: 12px;
+				font-size: 13px;
+				color: grey;
+			"
+			id="listePrenoms"
+		>
+			<option disabled selected hidden>Il s'affichera ici..</option>
+		</select>
+
+		<script
+			src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+			integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		></script>
+		<script src="js/scriptPrenoms.js"></script>
+	</body>
+</html>
