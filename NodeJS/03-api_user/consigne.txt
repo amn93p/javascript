@@ -1,0 +1,27 @@
+const data = [
+  {
+    id: 1,
+    name: "Izuku",
+    email: "Izuku@yahoo.com"
+  },
+  {
+    id: 2,
+    name: "Drake",
+    email: "Drake@yahoo.com",
+  },
+  {
+    id: 3,
+    name: "Marion",
+    email: "Marion@yahoo.com",
+  },
+];
+
+Créer un nouveau fichier router_user.js
+Création des routes GET, POST, PUT et DELETE :
+
+- La route GET doit permettre de récupérer l'intégralité des données.
+- La route POST doit permettre d'ajouter un nouvelle utilisateur et renvoyer une réponse JSON du tableau (data).
+- La route PUT doit permettre de modifier le nom d'un utilisateur.
+- La route DELETE doit permettre de supprimer un utilisateur.
+
+Attention : Avant d'effectuer une suppression ou une modification, il est impératif de vérifier que l'ID que vous tentez de supprimer ou de modifier existe bien.
